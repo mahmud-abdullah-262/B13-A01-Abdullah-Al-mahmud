@@ -64,4 +64,58 @@ nav a{
 
 /* =========================== */
 
+/* banner css */
 
+.banner{
+  width: 100%;
+  height: 674px;
+  padding-top: 154px;
+  background-image: url("../assets/hero-bg.png");
+  text-align: center;
+  
+}
+
+.banner .early-access{
+  width: 229px;
+  height: 36px;
+  background-color: #fff;
+  border-radius: 1000px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 6px;
+  padding: 8px 12px;
+  margin: 0 auto;
+}
+.banner .early-access p{
+  font-size: 16px;
+  font-weight: 500;
+  color: #469165;
+}
+.banner .early-access .live1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  background-color: #46916545;
+}
+.banner .early-access .live1 .live2{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background-color: #4691659f;
+}
+.banner .early-access .live1 .live2 .live3{
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background-color: #469165;
+}
+
+
+/* ============ */
