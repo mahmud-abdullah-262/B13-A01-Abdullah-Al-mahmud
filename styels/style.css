@@ -197,6 +197,10 @@ text-align: center ;
   justify-content: center;
   align-items: center;
   box-shadow: 0 0 8px 0 #00000013;
+  transition: 0.5s ease;
+}
+.card:hover{
+  background-color: #F7F6F2;
 }
 .card .icon{
   background-color: #F95555;
@@ -285,5 +289,49 @@ text-align: center ;
   margin: 16px 0 24px;
 }
 
-
 /* ============= */
+
+/* footer css */
+footer{
+  padding: 120px 120px 1px 120px;
+  text-align: center;
+  background-color: #001931;
+}
+
+footer .social{
+  width: 85%;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 80px;
+}
+footer .links{
+  text-align: left;
+}
+footer .social .links h6{
+  color: #fff;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 28px;
+  margin-bottom: 16px;
+}
+
+footer .social .links .social-icon{
+  display: flex;
+  gap: 18px;
+}
+
+footer .social .links .social-icon img{
+  height: 20px;
+}
+
+footer hr{
+ border: 1px solid #1d272f;  
+}
+
+footer p{
+  margin: 30px 0;
+  color: #FAFAFA;
+  font-size: 16px;
+  line-height: 24px;
+}
+/* =========== */
