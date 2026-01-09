@@ -17,14 +17,35 @@
   background-color: #469165;
   color: #fff;
   font-size: 16px;
+  line-height: 24px;
   font-weight: 600;
   transition: 0.5s ease;
-  box-shadow: 0px 4px 4px 0px #00000024;
+  box-shadow: 0px 4px 4px 0px #00000024; 
+  vertical-align: middle;
+}
+.btn-2{
+  background-color: transparent;
+  border: 2px solid #fff;
+  margin-left: 16px;
+}
+.btn-2 span{
+  line-height: 1;
+}
+.btn-2 .material-symbols-outlined{
+  vertical-align: middle;
+  font-size: 16px;
+}
+
+.btn img{
+  height: 15px;
+  margin-left: 5px;
 }
 .btn:hover{
   background-color:#fff;
   color: #469165;
 }
+
+
 a:hover{
   border-bottom: 1px solid black;
 }
@@ -117,5 +138,23 @@ nav a{
   background-color: #469165;
 }
 
+.banner h1{
+  font-size: 72px;
+  line-height: 84px;
+  color: #fff;
+  margin: 16px 0;
+}
+.banner h1 span{
+  display: block;
+  margin: 0 auto;
+  color: #469165;
+}
 
+.banner .subtitle{
+  font-size: 18px;
+  line-height: 24px;
+  color: #fff;
+  font-weight: 400;
+  margin-bottom: 32px;
+}
 /* ============ */
