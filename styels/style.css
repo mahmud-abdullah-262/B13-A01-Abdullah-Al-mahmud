@@ -220,3 +220,44 @@ text-align: center ;
   color: #627382;
 }
 /* ================== */
+
+/* secendBrain css */
+
+.secendBrain{
+  padding: 120px;
+  display: flex;
+  align-items: center;
+  gap: 60px;
+}
+.secendBrain h6{
+  text-transform: uppercase;
+  color: #469165;
+  font-size: 16px;
+  line-height: 20px;
+  margin-bottom: 16px;
+}
+
+.secendBrain h1{
+  font-size: 48px;
+  color: #001931;
+  margin-bottom: 16px;
+}
+
+.secendBrain .description{
+  font-size: 16px;
+  line-height: 20px;
+  color: #627382;
+  margin-bottom: 40px;
+}
+
+.secendBrain .checkCircle{
+  list-style: none;
+}
+
+.secendBrain .checkCircle li{
+  margin-bottom: 16px;
+  display: flex;
+  gap: 6px;
+}
+
+/* ========== */
