@@ -163,7 +163,7 @@ nav a{
 
 .notes{
 margin: 0 auto;
-padding: 32px;
+padding: 44px;
 width: 100%;
 text-align: center ;
 }
@@ -177,6 +177,7 @@ text-align: center ;
   font-size: 16px;
   line-height: 20px;
   color: #627382;
+  margin-top: 16px;
 }
 
 .card-container{
@@ -228,7 +229,7 @@ text-align: center ;
 /* secendBrain css */
 
 .secendBrain{
-  padding: 120px;
+  padding: 100px 120px 120px 120px;
   display: flex;
   align-items: center;
   gap: 60px;
